@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528BEA8A1C4188B200CE6E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEA891C4188B200CE6E57 /* AppDelegate.swift */; };
+		528BEA8C1C4188B300CE6E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEA8B1C4188B200CE6E57 /* ViewController.swift */; };
+		528BEA8E1C4188B300CE6E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528BEA8D1C4188B300CE6E57 /* Assets.xcassets */; };
+		528BEA911C4188B300CE6E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528BEA8F1C4188B300CE6E57 /* Main.storyboard */; };
+		528BEA9C1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEA9B1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift */; };
+		528BEAA71C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAA61C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528BEA981C4188B300CE6E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528BEA7E1C4188B200CE6E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528BEA851C4188B200CE6E57;
+			remoteInfo = "Drag-And-Drop-View";
+		};
+		528BEAA31C4188B300CE6E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528BEA7E1C4188B200CE6E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528BEA851C4188B200CE6E57;
+			remoteInfo = "Drag-And-Drop-View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528BEA861C4188B200CE6E57 /* Drag-And-Drop-View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drag-And-Drop-View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528BEA891C4188B200CE6E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		528BEA8B1C4188B200CE6E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		528BEA8D1C4188B300CE6E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528BEA901C4188B300CE6E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		528BEA921C4188B300CE6E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528BEA971C4188B300CE6E57 /* Drag-And-Drop-ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drag-And-Drop-ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528BEA9B1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_And_Drop_ViewTests.swift; sourceTree = "<group>"; };
+		528BEA9D1C4188B300CE6E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528BEAA21C4188B300CE6E57 /* Drag-And-Drop-ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drag-And-Drop-ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528BEAA61C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_And_Drop_ViewUITests.swift; sourceTree = "<group>"; };
+		528BEAA81C4188B300CE6E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528BEA831C4188B200CE6E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BEA941C4188B300CE6E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BEA9F1C4188B300CE6E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528BEA7D1C4188B200CE6E57 = {
+			isa = PBXGroup;
+			children = (
+				528BEA881C4188B200CE6E57 /* Drag-And-Drop-View */,
+				528BEA9A1C4188B300CE6E57 /* Drag-And-Drop-ViewTests */,
+				528BEAA51C4188B300CE6E57 /* Drag-And-Drop-ViewUITests */,
+				528BEA871C4188B200CE6E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528BEA871C4188B200CE6E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528BEA861C4188B200CE6E57 /* Drag-And-Drop-View.app */,
+				528BEA971C4188B300CE6E57 /* Drag-And-Drop-ViewTests.xctest */,
+				528BEAA21C4188B300CE6E57 /* Drag-And-Drop-ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528BEA881C4188B200CE6E57 /* Drag-And-Drop-View */ = {
+			isa = PBXGroup;
+			children = (
+				528BEA891C4188B200CE6E57 /* AppDelegate.swift */,
+				528BEA8B1C4188B200CE6E57 /* ViewController.swift */,
+				528BEA8D1C4188B300CE6E57 /* Assets.xcassets */,
+				528BEA8F1C4188B300CE6E57 /* Main.storyboard */,
+				528BEA921C4188B300CE6E57 /* Info.plist */,
+			);
+			path = "Drag-And-Drop-View";
+			sourceTree = "<group>";
+		};
+		528BEA9A1C4188B300CE6E57 /* Drag-And-Drop-ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				528BEA9B1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift */,
+				528BEA9D1C4188B300CE6E57 /* Info.plist */,
+			);
+			path = "Drag-And-Drop-ViewTests";
+			sourceTree = "<group>";
+		};
+		528BEAA51C4188B300CE6E57 /* Drag-And-Drop-ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				528BEAA61C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift */,
+				528BEAA81C4188B300CE6E57 /* Info.plist */,
+			);
+			path = "Drag-And-Drop-ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528BEA851C4188B200CE6E57 /* Drag-And-Drop-View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528BEAAB1C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-View" */;
+			buildPhases = (
+				528BEA821C4188B200CE6E57 /* Sources */,
+				528BEA831C4188B200CE6E57 /* Frameworks */,
+				528BEA841C4188B200CE6E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drag-And-Drop-View";
+			productName = "Drag-And-Drop-View";
+			productReference = 528BEA861C4188B200CE6E57 /* Drag-And-Drop-View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528BEA961C4188B300CE6E57 /* Drag-And-Drop-ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528BEAAE1C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-ViewTests" */;
+			buildPhases = (
+				528BEA931C4188B300CE6E57 /* Sources */,
+				528BEA941C4188B300CE6E57 /* Frameworks */,
+				528BEA951C4188B300CE6E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528BEA991C4188B300CE6E57 /* PBXTargetDependency */,
+			);
+			name = "Drag-And-Drop-ViewTests";
+			productName = "Drag-And-Drop-ViewTests";
+			productReference = 528BEA971C4188B300CE6E57 /* Drag-And-Drop-ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528BEAA11C4188B300CE6E57 /* Drag-And-Drop-ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528BEAB11C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-ViewUITests" */;
+			buildPhases = (
+				528BEA9E1C4188B300CE6E57 /* Sources */,
+				528BEA9F1C4188B300CE6E57 /* Frameworks */,
+				528BEAA01C4188B300CE6E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528BEAA41C4188B300CE6E57 /* PBXTargetDependency */,
+			);
+			name = "Drag-And-Drop-ViewUITests";
+			productName = "Drag-And-Drop-ViewUITests";
+			productReference = 528BEAA21C4188B300CE6E57 /* Drag-And-Drop-ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528BEA7E1C4188B200CE6E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Todd Olsen";
+				TargetAttributes = {
+					528BEA851C4188B200CE6E57 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					528BEA961C4188B300CE6E57 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 528BEA851C4188B200CE6E57;
+					};
+					528BEAA11C4188B300CE6E57 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 528BEA851C4188B200CE6E57;
+					};
+				};
+			};
+			buildConfigurationList = 528BEA811C4188B200CE6E57 /* Build configuration list for PBXProject "Drag-And-Drop-View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528BEA7D1C4188B200CE6E57;
+			productRefGroup = 528BEA871C4188B200CE6E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528BEA851C4188B200CE6E57 /* Drag-And-Drop-View */,
+				528BEA961C4188B300CE6E57 /* Drag-And-Drop-ViewTests */,
+				528BEAA11C4188B300CE6E57 /* Drag-And-Drop-ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528BEA841C4188B200CE6E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BEA8E1C4188B300CE6E57 /* Assets.xcassets in Resources */,
+				528BEA911C4188B300CE6E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BEA951C4188B300CE6E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BEAA01C4188B300CE6E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528BEA821C4188B200CE6E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BEA8C1C4188B300CE6E57 /* ViewController.swift in Sources */,
+				528BEA8A1C4188B200CE6E57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BEA931C4188B300CE6E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BEA9C1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BEA9E1C4188B300CE6E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BEAA71C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528BEA991C4188B300CE6E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528BEA851C4188B200CE6E57 /* Drag-And-Drop-View */;
+			targetProxy = 528BEA981C4188B300CE6E57 /* PBXContainerItemProxy */;
+		};
+		528BEAA41C4188B300CE6E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528BEA851C4188B200CE6E57 /* Drag-And-Drop-View */;
+			targetProxy = 528BEAA31C4188B300CE6E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		528BEA8F1C4188B300CE6E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528BEA901C4188B300CE6E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528BEAA91C4188B300CE6E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528BEAAA1C4188B300CE6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		528BEAAC1C4188B300CE6E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drag-And-Drop-View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proxpero.Drag-And-Drop-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		528BEAAD1C4188B300CE6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drag-And-Drop-View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.proxpero.Drag-And-Drop-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		528BEAAF1C4188B300CE6E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drag-And-Drop-ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Todd-Olsen.Drag-And-Drop-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drag-And-Drop-View.app/Contents/MacOS/Drag-And-Drop-View";
+			};
+			name = Debug;
+		};
+		528BEAB01C4188B300CE6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drag-And-Drop-ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Todd-Olsen.Drag-And-Drop-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drag-And-Drop-View.app/Contents/MacOS/Drag-And-Drop-View";
+			};
+			name = Release;
+		};
+		528BEAB21C4188B300CE6E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drag-And-Drop-ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Todd-Olsen.Drag-And-Drop-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Drag-And-Drop-View";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		528BEAB31C4188B300CE6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drag-And-Drop-ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Todd-Olsen.Drag-And-Drop-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Drag-And-Drop-View";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528BEA811C4188B200CE6E57 /* Build configuration list for PBXProject "Drag-And-Drop-View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BEAA91C4188B300CE6E57 /* Debug */,
+				528BEAAA1C4188B300CE6E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528BEAAB1C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BEAAC1C4188B300CE6E57 /* Debug */,
+				528BEAAD1C4188B300CE6E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		528BEAAE1C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BEAAF1C4188B300CE6E57 /* Debug */,
+				528BEAB01C4188B300CE6E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		528BEAB11C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BEAB21C4188B300CE6E57 /* Debug */,
+				528BEAB31C4188B300CE6E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528BEA7E1C4188B200CE6E57 /* Project object */;
+}
