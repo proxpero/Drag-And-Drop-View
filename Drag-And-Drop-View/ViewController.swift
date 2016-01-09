@@ -12,16 +12,20 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
+        guard let target = view as? MyTargetView else { fatalError("Set the class of the view controller's view to `MyTargetView` in Main.Storyboard") }
+        
+        var subviews: [MySourceView] = []
+        
+        let hue = CGFloat(arc4random()) / 0xFFFFFFFF
+        
+        for _ in (1...12) {
+            subviews.append(MySourceView(color: NSColor.randomColor(hue)))
         }
-    }
+        
+        target.subviews = subviews.map { $0 as NSView }
+        target.layoutSubviews(target.subviews)
 
+    }
 
 }
 

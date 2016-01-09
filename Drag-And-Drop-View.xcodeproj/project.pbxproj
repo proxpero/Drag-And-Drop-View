@@ -13,6 +13,13 @@
 		528BEA911C4188B300CE6E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528BEA8F1C4188B300CE6E57 /* Main.storyboard */; };
 		528BEA9C1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEA9B1C4188B300CE6E57 /* Drag_And_Drop_ViewTests.swift */; };
 		528BEAA71C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAA61C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift */; };
+		528BEABA1C418A0900CE6E57 /* TargetViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAB41C418A0900CE6E57 /* TargetViewType.swift */; };
+		528BEABB1C418A0900CE6E57 /* MyTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAB51C418A0900CE6E57 /* MyTargetView.swift */; };
+		528BEABC1C418A0900CE6E57 /* MyTargetView+TargetViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAB61C418A0900CE6E57 /* MyTargetView+TargetViewType.swift */; };
+		528BEABD1C418A0900CE6E57 /* SourceViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAB71C418A0900CE6E57 /* SourceViewType.swift */; };
+		528BEABE1C418A0900CE6E57 /* MySourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAB81C418A0900CE6E57 /* MySourceView.swift */; };
+		528BEABF1C418A0900CE6E57 /* MySourceView+SourceViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAB91C418A0900CE6E57 /* MySourceView+SourceViewType.swift */; };
+		528BEAC11C418A3400CE6E57 /* RandomUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEAC01C418A3400CE6E57 /* RandomUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		528BEAA21C4188B300CE6E57 /* Drag-And-Drop-ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drag-And-Drop-ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528BEAA61C4188B300CE6E57 /* Drag_And_Drop_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_And_Drop_ViewUITests.swift; sourceTree = "<group>"; };
 		528BEAA81C4188B300CE6E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528BEAB41C418A0900CE6E57 /* TargetViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetViewType.swift; sourceTree = "<group>"; };
+		528BEAB51C418A0900CE6E57 /* MyTargetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTargetView.swift; sourceTree = "<group>"; };
+		528BEAB61C418A0900CE6E57 /* MyTargetView+TargetViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyTargetView+TargetViewType.swift"; sourceTree = "<group>"; };
+		528BEAB71C418A0900CE6E57 /* SourceViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceViewType.swift; sourceTree = "<group>"; };
+		528BEAB81C418A0900CE6E57 /* MySourceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySourceView.swift; sourceTree = "<group>"; };
+		528BEAB91C418A0900CE6E57 /* MySourceView+SourceViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MySourceView+SourceViewType.swift"; sourceTree = "<group>"; };
+		528BEAC01C418A3400CE6E57 /* RandomUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,13 @@
 			children = (
 				528BEA891C4188B200CE6E57 /* AppDelegate.swift */,
 				528BEA8B1C4188B200CE6E57 /* ViewController.swift */,
+				528BEAC01C418A3400CE6E57 /* RandomUtilities.swift */,
+				528BEAB41C418A0900CE6E57 /* TargetViewType.swift */,
+				528BEAB51C418A0900CE6E57 /* MyTargetView.swift */,
+				528BEAB61C418A0900CE6E57 /* MyTargetView+TargetViewType.swift */,
+				528BEAB71C418A0900CE6E57 /* SourceViewType.swift */,
+				528BEAB81C418A0900CE6E57 /* MySourceView.swift */,
+				528BEAB91C418A0900CE6E57 /* MySourceView+SourceViewType.swift */,
 				528BEA8D1C4188B300CE6E57 /* Assets.xcassets */,
 				528BEA8F1C4188B300CE6E57 /* Main.storyboard */,
 				528BEA921C4188B300CE6E57 /* Info.plist */,
@@ -253,7 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				528BEA8C1C4188B300CE6E57 /* ViewController.swift in Sources */,
+				528BEABB1C418A0900CE6E57 /* MyTargetView.swift in Sources */,
+				528BEAC11C418A3400CE6E57 /* RandomUtilities.swift in Sources */,
+				528BEABA1C418A0900CE6E57 /* TargetViewType.swift in Sources */,
 				528BEA8A1C4188B200CE6E57 /* AppDelegate.swift in Sources */,
+				528BEABE1C418A0900CE6E57 /* MySourceView.swift in Sources */,
+				528BEABF1C418A0900CE6E57 /* MySourceView+SourceViewType.swift in Sources */,
+				528BEABC1C418A0900CE6E57 /* MyTargetView+TargetViewType.swift in Sources */,
+				528BEABD1C418A0900CE6E57 /* SourceViewType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +503,7 @@
 				528BEAAD1C4188B300CE6E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528BEAAE1C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +512,7 @@
 				528BEAB01C4188B300CE6E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528BEAB11C4188B300CE6E57 /* Build configuration list for PBXNativeTarget "Drag-And-Drop-ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +521,7 @@
 				528BEAB31C4188B300CE6E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
