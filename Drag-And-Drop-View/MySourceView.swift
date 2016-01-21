@@ -43,7 +43,7 @@ final class MySourceView: NSView {
     override func drawRect(dirtyRect: NSRect) {
         
         color.setFill()
-        NSRectFill(dirtyRect)
+        NSRectFill(bounds)
         
         super.drawRect(dirtyRect)
     }

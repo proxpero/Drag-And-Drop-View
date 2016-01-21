@@ -15,11 +15,11 @@ extension MySourceView: SourceViewType {
     }
     
     override func mouseDragged(theEvent: NSEvent) {
-        super.mouseDragged(theEvent)
-        
+
         if let target = superview as? MyTargetView {
             target.reorderSubview(self, withEvent: theEvent)
         }
+        
     }
     
 }

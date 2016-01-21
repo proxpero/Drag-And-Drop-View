@@ -104,6 +104,8 @@ extension TargetViewType where Self: NSView, Source: NSView {
     func layoutSubviews(subviews: [NSView]) {
         
         removeConstraints(constraints)
+        if subviews.isEmpty { return }
+        
         var prev: NSView?
         
         for subview in subviews {
@@ -122,8 +124,7 @@ extension TargetViewType where Self: NSView, Source: NSView {
             prev = subview
         }
         
-        if prev != nil {
-            addConstraint(NSLayoutConstraint(item: prev!, attribute: .Bottom, relatedBy: .Equal, toItem: self, attribute: .Bottom, multiplier: 1, constant: 0))
-        }
+        addConstraint(NSLayoutConstraint(item: prev!, attribute: .Bottom, relatedBy: .Equal, toItem: self, attribute: .Bottom, multiplier: 1, constant: 0))
+        
     }
 }
